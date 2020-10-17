@@ -1,0 +1,19 @@
+---
+title: "code"
+author: "gopi2904"
+date: "2020-10-17"
+output: workflowr::wflow_html
+editor_options:
+  chunk_output_type: console
+---
+
+## Introduction
+
+```{r}
+
+d1 <- rio::import("./data/p1.xlsx",which = "data.consolidate")
+
+
+
+```
+
